@@ -1,1 +1,23 @@
+# PyCharm / JetBrains
+.idea/
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+.venv/
+
+# Data (no versionar raw/interim)
+data/raw/
+data/interim/
+
+# Model outputs / reports (opcional)
+models/
+reports/figures/
