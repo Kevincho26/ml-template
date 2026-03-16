@@ -1,1 +1,7 @@
 formats = "ipynb,py:percent"
+
+# Evita diffs por cambio de kernel en PyCharm/Jupyter
+notebook_metadata_filter = "jupytext,-kernelspec,-language_info"
+
+# Opcional: tolera pequeñas diferencias de timestamps
+outdated_text_notebook_margin = 5
