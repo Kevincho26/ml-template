@@ -1,19 +1,29 @@
-name: ai-ml
+name: ml-template
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
-  - pip
-  - ipykernel
-  - jupyter
-  - numpy
-  - pandas
   - scipy
-  - matplotlib
-  - scikit-learn
-  - python-dotenv
+  - ipykernel
   - pytest
-  - pre-commit
-  - ruff
+  - python=3.11
   - jupytext
+  - ruff
   - nbstripout
+  - scikit-learn
+  - numpy
+  - python-dotenv
+  - matplotlib
+  - jupyter
+  - pip
+  - pandas
+  - tornado
+  - jupyter_client
+  - pyzmq
+  - jupyter_server
+  - ipython
+  - traitlets
+  - pre-commit
+  - identify
+  - virtualenv
+  - platformdirs
+prefix: C:\Users\Kevin\.conda\envs\ml-template
